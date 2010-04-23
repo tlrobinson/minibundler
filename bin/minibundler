@@ -1,0 +1,6 @@
+#!/usr/bin/env narwhal
+
+var SYSTEM = require("system");
+var MINIBUNDLER = require("minibundler");
+
+SYSTEM.stdout.write(MINIBUNDLER.bundle(SYSTEM.args.slice(1)));
